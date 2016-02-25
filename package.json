@@ -1,0 +1,36 @@
+{
+  "name": "vigour-wrapper-bridge",
+  "version": "1.0.0",
+  "description": "the bridge over which JavaScript talks to Native in apps wrapped by vigour-wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/wrapper-bridge.git"
+  },
+  "keywords": [
+    "wrapper",
+    "wrapped",
+    "hybrid",
+    "html5",
+    "native",
+    "apps"
+  ],
+  "author": "vigour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigour-io/wrapper-bridge/issues"
+  },
+  "homepage": "https://github.com/vigour-io/wrapper-bridge#readme",
+  "dependencies": {
+    "vigour-observable": "^1.0.0",
+    "vigour-event": "^1.0.1",
+    "lodash": "^3.10.1",
+    "vigour-ua": "^1.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}

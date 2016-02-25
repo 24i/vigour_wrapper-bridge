@@ -1,0 +1,21 @@
+node_modules
+npm-debug.log
+.DS_STORE
+bundle.*
+<<<<<<< HEAD
+=======
+bundle.css
+>>>>>>> develop
+*.aar
+.idea/
+*.iml
+mocha.css
+mocha.js
+test-runner.html
+bundles
+test/build*
+build/
+build.*
+!build.html
+dist/
+.npmrc
