@@ -19,9 +19,9 @@ test('require Plugin', function (t) {
 })
 
 test('make new plugin', function (t) {
-  var injection = require('../lib/plugin/injection')
-  plugin = new Plugin({
-    inject: injection('vigour-testplugin'),
+  var injection = require('../lib/plugin/injection')('vigour-testplugin')
+  plugin = new WPlugin({
+    inject: injection,
     _platform: {
       define: {
         test () {
@@ -33,4 +33,3 @@ test('make new plugin', function (t) {
   t.ok(plugin)
   t.end()
 })
-
