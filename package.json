@@ -1,6 +1,6 @@
 {
   "name": "vigour-wrapper-bridge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "the bridge over which JavaScript talks to Native in apps wrapped by vigour-wrapper",
   "main": "lib/index.js",
   "scripts": {
