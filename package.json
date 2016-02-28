@@ -1,6 +1,6 @@
 {
   "name": "vigour-wrapper-bridge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "the bridge over which JavaScript talks to Native in apps wrapped by vigour-wrapper",
   "main": "lib/index.js",
   "scripts": {
@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/vigour-io/wrapper-bridge#readme",
   "dependencies": {
-    "vigour-observable": "^1.0.0",
+    "lodash.set": "^4.0.0",
     "vigour-event": "^1.0.1",
-    "lodash": "^3.10.1",
+    "vigour-observable": "^1.0.0",
     "vigour-ua": "^1.0.0"
   },
   "devDependencies": {
